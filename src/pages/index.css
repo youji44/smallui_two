@@ -1,0 +1,281 @@
+.dflex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .width93{
+    width: 93%;
+  }
+  
+  .w-100{
+    width: 100%;
+  }
+  
+  .border-bottom{
+    border-bottom: 1px solid #E4E4E4;
+  }
+  
+  .border-c{
+    border: 2px solid #E0E0E0 !important;
+    border-radius: 0px;
+    height: 550px;
+  }
+  
+  .pb-ant-2{
+    padding-bottom: 1rem;
+  }
+  
+  .my-ant-0{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .text-left{
+    text-align: left !important;
+  }
+  
+  .pt-ant-2{
+    padding-top: 1rem;
+  }
+  
+  .mb-ant-0{
+    margin-bottom: 0px !important;
+  }
+  
+  .last-Footer{
+    height: 250px;
+  }
+  
+  /* .last-Footer label>.ant-checkbox {
+    padding-bottom: 5px !important;
+  } */
+  
+  .pt-ant-1{
+    padding-top: .5rem;
+  }
+  
+  .p-ant-2{
+    padding: 1rem;
+  }
+  
+  .text-white{
+    color: #fff;
+  }
+  
+  .text-center{
+    text-align: center;
+  }
+  
+  .fs-15{
+    font-size: 15px;
+  }
+  
+  .rightSideCard{
+    border-top: none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    margin-top: 10px;
+  }
+
+  .rightSideCard>.ant-card-body{
+    padding: 17px !important;
+  }
+  
+ 
+  
+  .box-shadow{
+    box-shadow:  rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 24%) 0px 1px 2px;
+  }
+  
+  
+  .mitid-loader__state {
+    position: relative;
+    height: 110px;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mitid-loader__shield {
+    position: absolute;
+    width: 100px;
+    height: 117px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+  }
+  .mitid-loader__circular {
+    animation: mitid-core--loader-rotate 1s linear infinite;
+    transform-origin: center center;
+    margin: auto;
+    z-index: 10;
+    position: absolute;
+    left: 24px;
+    top: 28px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .mitid-loader__shield path {
+    fill: #0060e6;
+  }
+  
+  @keyframes mitid-core--loader-rotate{
+    100% {
+        transform: rotate(360deg);
+    }
+  }
+  
+  .mainspinner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+  }
+  
+  .bg-white{
+    background-color: #fff;
+  }
+  
+  .mainspinner img{
+    animation: mitid-core--loader-rotate 1s linear infinite;
+    transform-origin: center center;
+    position: relative;
+    z-index: 3;
+    width: 35px !important;
+  }
+
+  .rightinercard{
+    border: 0px;
+    background: rgb(127, 155, 169); 
+    border-radius: 3px !important;
+  }
+
+  .rightinercard>.ant-card-body{
+    padding: 0px 18px !important;
+  }
+
+  .font-15{
+    font-size: 15px !important;
+  }
+
+  .blue-color{
+    color: rgb(0, 158, 221) !important;
+  }
+
+
+  .left-card>.ant-card-body {
+    padding: 34px !important;
+}
+
+
+.left-side-space{
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.mbl-left{
+  padding: 0px 50px !important;
+}
+
+:where(.css-dev-only-do-not-override-sk7ap8).ant-typography{
+  line-height: 20px !important;
+}
+
+:where(.css-dev-only-do-not-override-sk7ap8).ant-checkbox-checked:after{
+  border: none !important;
+}
+
+.mobile-shap{
+  border-radius: 20px;
+    border: 5px solid #8DC1FA;
+    padding: 15px 4px;
+    width: 100px;
+    background-color: #CADFFC;
+    margin: 0px auto;
+}
+
+.innerflex{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.div{
+  border-radius: 8px;
+  background-color: #fff;
+  height: 25px;
+  width: 25px;
+}
+
+.borderflow{
+  position: absolute;
+  width: 100px;
+  background-color: #0060e6;
+  top: 0px;
+  z-index: 1;
+  height: 5px;
+  left: 0px;
+  animation: moveforward 5s infinite;
+}
+
+@keyframes moveforward{
+  0%{
+    left: -10%;
+    opacity: 1;
+  }
+  50%{
+    left: 100%;
+  }
+  100%{
+    left: 500%;
+    opacity: 0;
+  }
+}
+
+
+@media (min-width: 320px) and (max-width: 480px){
+  .mbl-left{
+    padding: 0px 20px !important;
+    box-shadow: none;
+  }
+  .mbl-pad{
+    padding: 0px 20px !important;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+  .box-shadow-none{
+    box-shadow: none !important;
+  }
+  .mbl-left{
+    padding: 0px 40px !important;
+    box-shadow: none;
+  }
+  .mbl-pad{
+    padding: 0px 40px !important;
+  }
+  .left-side-space{
+    padding-bottom: 0px;
+  }
+  .border-c{
+    height: 100%;
+  }
+  .last-Footer {
+    height: 300px;
+  }
+}
+
+
